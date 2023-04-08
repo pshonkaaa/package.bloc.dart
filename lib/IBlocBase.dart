@@ -74,11 +74,11 @@ abstract class IBlocBase<ENUM extends Object> {
   /// Should be call from Widget
   @mustCallSuper
   void onEvent(ENUM type, [IBlocEvent event = IBlocEvent.empty]) {
-    assert(false, 
-      "Unhandled event!\n"
-      "Enum: $type\n"
-      "Event: $event"
-    );
+    // assert(false, 
+    //   "Unhandled event!\n"
+    //   "Enum: $type\n"
+    //   "Event: $event"
+    // );
   }
 
   // void dispose() {
