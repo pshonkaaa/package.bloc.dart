@@ -15,3 +15,7 @@ dependencies:
   true_core:
     git:
       url: https://github.com/TrueCollaboration/package.true_core.dart.git
+  
+  bloc_common:
+    git:
+      url: https://github.com/TrueCollaboration/package.bloc_common.dart.git
