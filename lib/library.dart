@@ -1,6 +1,6 @@
-library truecollaboration.bloc;
+library library;
 
-import 'package:meta/meta.dart';
-
-part 'IBlocBase.dart';
-part 'IBlocEvent.dart';
+export 'src/external/interfaces/IBloc.dart';
+export 'src/external/interfaces/IBlocEvent.dart';
+export 'src/external/interfaces/IRepository.dart';
+export 'src/external/base_bloc.dart';

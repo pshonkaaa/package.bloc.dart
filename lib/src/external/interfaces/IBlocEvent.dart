@@ -1,5 +1,3 @@
-part of truecollaboration.bloc;
-
 abstract class IBlocEvent {
   static const IBlocEvent empty = const _EmptyEvent();
   const IBlocEvent();

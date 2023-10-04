@@ -1,10 +1,17 @@
 name: bloc
 description:
-version: 0.0.2
-homepage:
+version: 0.0.3
+publish_to: none
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
+  flutter:
+    sdk: flutter
+    
   meta: any
+  
+  true_core:
+    git:
+      url: https://github.com/TrueCollaboration/package.true_core.dart.git
