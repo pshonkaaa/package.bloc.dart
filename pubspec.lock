@@ -6,7 +6,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "7a89752c53c0717535506c80e0628e2ba6fa63f6"
+      resolved-ref: f6f02f77fb403f5a2edb70eab17c328c24a445e5
       url: "https://github.com/TrueCollaboration/package.bloc_common.dart.git"
     source: git
     version: "0.0.2"
@@ -43,10 +43,18 @@ packages:
     dependency: transitive
     description:
       name: intl
-      sha256: "3bc132a9dbce73a7e4a21a17d06e1878839ffbf975568bc875c60537824b0c4d"
+      sha256: d6f56758b7d3014a48af9701c085700aac781a92a87a62b1333b46d8879661cf
       url: "https://pub.dev"
     source: hosted
-    version: "0.18.1"
+    version: "0.19.0"
+  logger:
+    dependency: "direct main"
+    description:
+      name: logger
+      sha256: "6bbb9d6f7056729537a4309bda2e74e18e5d9f14302489cc1e93f33b3fe32cac"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.2+1"
   logging:
     dependency: transitive
     description:
@@ -75,10 +83,10 @@ packages:
     dependency: transitive
     description:
       name: path
-      sha256: "8829d8a55c13fc0e37127c29fedf290c102f4e40ae94ada574091fe0ff96c917"
+      sha256: "087ce49c3f0dc39180befefc60fdb4acd8f8620e5682fe2476afd0b3688bb4af"
       url: "https://pub.dev"
     source: hosted
-    version: "1.8.3"
+    version: "1.9.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -97,10 +105,10 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "090accaea66afa06139f6728b9f91a76f92ecf07"
+      resolved-ref: "412c7e33b4dadbadc2ed57bf14ac78940efcef27"
       url: "https://github.com/TrueCollaboration/package.true_core.dart.git"
     source: git
-    version: "0.0.7"
+    version: "0.0.8"
   vector_math:
     dependency: transitive
     description:

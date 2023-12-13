@@ -12,6 +12,8 @@ dependencies:
     
   meta: any
   
+  logger: any
+  
   true_core:
     git:
       url: https://github.com/TrueCollaboration/package.true_core.dart.git

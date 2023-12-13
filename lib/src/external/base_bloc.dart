@@ -1,9 +1,16 @@
 import 'package:bloc_common/library.dart';
 import 'package:flutter/widgets.dart';
+import 'package:logger/logger.dart';
 
 import 'interfaces/IBloc.dart';
 
 abstract class BaseBloc<T extends IRepository, TEnum extends Object> extends BaseCommonBloc<T, TEnum, BuildContext> implements IBloc<TEnum> {
+  static set defaultLogger(Logger? logger)
+    => BaseCommonBloc.defaultLogger = logger;
+
+  static Logger? get defaultLogger
+    => BaseCommonBloc.defaultLogger;
+  
   BaseBloc({
     required super.repository,
   });
