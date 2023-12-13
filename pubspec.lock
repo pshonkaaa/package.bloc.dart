@@ -6,10 +6,10 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "4233924e4857eb1000fea13b64ffff2b6637e57c"
+      resolved-ref: "7a89752c53c0717535506c80e0628e2ba6fa63f6"
       url: "https://github.com/TrueCollaboration/package.bloc_common.dart.git"
     source: git
-    version: "0.0.1"
+    version: "0.0.2"
   characters:
     dependency: transitive
     description:
