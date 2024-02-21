@@ -6,8 +6,8 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: f6f02f77fb403f5a2edb70eab17c328c24a445e5
-      url: "https://github.com/TrueCollaboration/package.bloc_common.dart.git"
+      resolved-ref: cfd0980b583145fd3497610c113de59fd94c2271
+      url: "https://github.com/pshonkaaa/package.bloc_common.dart.git"
     source: git
     version: "0.0.2"
   characters:
@@ -87,6 +87,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.0"
+  pshondation:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: d10cf60a2e3adc12a949400e0662db5bddecc475
+      url: "https://github.com/pshonkaaa/package.pshondation.dart.git"
+    source: git
+    version: "0.1.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -96,19 +105,10 @@ packages:
     dependency: transitive
     description:
       name: synchronized
-      sha256: "5fcbd27688af6082f5abd611af56ee575342c30e87541d0245f7ff99faa02c60"
+      sha256: "539ef412b170d65ecdafd780f924e5be3f60032a1128df156adad6c5b373d558"
       url: "https://pub.dev"
     source: hosted
-    version: "3.1.0"
-  foundation:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "412c7e33b4dadbadc2ed57bf14ac78940efcef27"
-      url: "https://github.com/TrueCollaboration/package.foundation.dart.git"
-    source: git
-    version: "0.0.8"
+    version: "3.1.0+1"
   vector_math:
     dependency: transitive
     description:
