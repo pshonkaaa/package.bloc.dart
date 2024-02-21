@@ -100,13 +100,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.0"
-  true_core:
+  foundation:
     dependency: "direct main"
     description:
       path: "."
       ref: HEAD
       resolved-ref: "412c7e33b4dadbadc2ed57bf14ac78940efcef27"
-      url: "https://github.com/TrueCollaboration/package.true_core.dart.git"
+      url: "https://github.com/TrueCollaboration/package.foundation.dart.git"
     source: git
     version: "0.0.8"
   vector_math:
